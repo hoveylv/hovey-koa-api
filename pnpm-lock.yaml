@@ -15,6 +15,7 @@ specifiers:
   cz-conventional-changelog: ^3.3.0
   dotenv: ^16.0.2
   eslint: ^8.23.1
+  hovey-api: 'link:'
   husky: ^8.0.1
   jest: ^29.0.3
   koa: ^2.13.4
@@ -33,6 +34,7 @@ specifiers:
 
 dependencies:
   dotenv: mirrors.tencent.com/dotenv/16.0.2
+  hovey-api: 'link:'
   koa: mirrors.tencent.com/koa/2.13.4
   koa-router: mirrors.tencent.com/koa-router/12.0.0
   log4js: mirrors.tencent.com/log4js/6.6.1

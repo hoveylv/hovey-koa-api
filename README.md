@@ -1,4 +1,4 @@
-# ## Git Contribution submission specification
+# Git Contribution submission specification
 
 - `feat` Add new features
 - `fix` Fix the problem/BUG
@@ -13,3 +13,9 @@
 - `ci` Continuous integration
 - `types` Type definition file changes
 - `wip` In development
+
+## 安装
+
+```sh
+pnpm install
+```
