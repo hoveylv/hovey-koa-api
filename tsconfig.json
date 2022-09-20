@@ -9,6 +9,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["app/**/*.ts", "utils/**/*.ts", "tests/**/*.ts"],
+  "include": ["app/**/*.ts", "tests/**/*.ts"],
   "files": ["index.ts"]
 }

@@ -35,6 +35,10 @@ const config: IConfig = {
         type: 'file',
         filename: 'logs/access.log',
       },
+      db: {
+        type: 'file',
+        filename: 'logs/db.log',
+      },
     },
     categories: {
       default: {
@@ -43,6 +47,10 @@ const config: IConfig = {
       },
       access: {
         appenders: ['access'],
+        level: 'info',
+      },
+      db: {
+        appenders: ['db'],
         level: 'info',
       },
     },

@@ -1,10 +1,11 @@
 import { Context } from 'koa'
 import logger from '../logger'
+import userService from '../services/user.service'
 
 class UserController {
   async find(ctx: Context) {
-    logger.error('msg', 'request error:api not found.')
-    ctx.body = { name: 'lvyunlong', age: 18 }
+    const user = await userService.getUser()
+    ctx.body = user
   }
 }
 

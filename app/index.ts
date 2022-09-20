@@ -1,10 +1,13 @@
+/* eslint import/first: "off" */
+
 import type { Server } from 'http'
 import dotenv from 'dotenv'
-
+dotenv.config()
 import Koa from 'koa'
+import db from './db'
+db()
 import router from './router'
 import AccessLogMiddleWare from './middlewares/access.middleware'
-dotenv.config()
 
 const app = new Koa()
 
