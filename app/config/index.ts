@@ -12,6 +12,10 @@ interface IConfig {
     db_pwd?: string
   }
   log: Configuration
+  jwt?: {
+    jwt_secret?: string
+    jwt_expire?: string
+  }
 }
 
 const config: IConfig = {
@@ -54,6 +58,10 @@ const config: IConfig = {
         level: 'info',
       },
     },
+  },
+  jwt: {
+    jwt_secret: process.env.JWT_SECRET,
+    jwt_expire: process.env.JWT_EXPIRE,
   },
 }
 
